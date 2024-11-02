@@ -35,7 +35,7 @@ import { setBankDetails } from "@/features/bankSlice"
 
 
 
-const BankDetailsSubmit = () => {
+const BankDetailsSubmit = ({ButtonclassName}) => {
     const dispatch = useDispatch()
     const { toast } = useToast()
     const [result, setResult] = useState({})
@@ -90,8 +90,8 @@ const BankDetailsSubmit = () => {
       
 
                 <div className="flex justify-end">
-                    <AlertDialogTrigger className="w-auto p-3 bg-blue-600 rounded text-white font-bold hover:bg-blue-300 text-sm">
-                        Add Bank Account
+                <AlertDialogTrigger className={`${ButtonclassName} w-auto p-3  bg-tealBlue rounded text-white font-bold hover:bg-blue-300 text-sm`}>
+                        Add Account
                     </AlertDialogTrigger>
                 </div>
 

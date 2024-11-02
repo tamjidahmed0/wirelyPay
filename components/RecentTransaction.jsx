@@ -63,7 +63,7 @@ const RecentTransaction = ({
 
                 {result.map((value, index) => (
 
-                    <div>
+                    <div key={index}>
                         <TabsContent value={index}>
                         
                             <TransactionsTable  className={'max-h-[40vh]'} data ={TransactionResult} bankId = {value._id} />

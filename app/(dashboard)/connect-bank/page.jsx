@@ -39,7 +39,8 @@ const ConnectBank = () => {
   return (
     <section className="mx-4 md:mx-10 pt-[48px]">
       <Header title="Connect Banks" subText="Connect your local banks to wirelyPay" />
-      <BankDetailsSubmit />
+        <BankDetailsSubmit ButtonclassName={'max-sm:text-[10px] max-sm:p-2'} />
+    
 
       <div className="mt-10 md:mt-20 overflow-x-auto max-h-[60vh]">
         <div className="min-w-[600px] md:min-w-full">

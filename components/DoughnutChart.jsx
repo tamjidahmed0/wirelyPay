@@ -24,7 +24,7 @@ const DoughnutChart = ({ accounts }) => {
     }
 
     return (
-        <div className=" w-[120px] max-md:w-[100px]">
+        <div className=" w-[120px] max-sm:w-[80px] max-md:w-[100px]">
             <Doughnut
                 data={data}
                 options={{

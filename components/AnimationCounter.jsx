@@ -10,7 +10,7 @@ const AnimationCounter = ({amount}) => {
         decimal = '.'
         prefix='$'
         end={amount}
-         
+         className=' max-sm:text-[18px]'
          />
    
   )

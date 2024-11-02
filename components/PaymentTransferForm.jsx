@@ -43,7 +43,7 @@ const PaymentTransferForm = () => {
       <div className="mt-[20px] space-y-6">
         <div className="flex flex-col md:flex-row border-b pb-4">
           <div className="md:w-[280px]">
-            <h1 className="text-sm md:text-[14px] font-bold">Recipient's Email Address</h1>
+            <h1 className="text-sm md:text-[14px] font-bold">Recipient&apos;s Email Address</h1>
           </div>
           <div className="mt-2 md:mt-0 md:ml-20">
             <Input placeholder="Enter email" name="email" />
@@ -52,7 +52,7 @@ const PaymentTransferForm = () => {
 
         <div className="flex flex-col md:flex-row border-b pb-4">
           <div className="md:w-[280px]">
-            <h1 className="text-sm md:text-[14px] font-bold">Recipient's Bank Account Number</h1>
+            <h1 className="text-sm md:text-[14px] font-bold">Recipient&apos;s Bank Account Number</h1>
           </div>
           <div className="mt-2 md:mt-0 md:ml-20">
             <Input placeholder="Enter Account No:" name="account" />
@@ -61,7 +61,7 @@ const PaymentTransferForm = () => {
 
         <div className="flex flex-col md:flex-row border-b pb-4">
           <div className="md:w-[280px]">
-            <h1 className="text-sm md:text-[14px] font-bold">Recipient's Bank Id Number</h1>
+            <h1 className="text-sm md:text-[14px] font-bold">Recipient&apos;s Bank Id Number</h1>
           </div>
           <div className="mt-2 md:mt-0 md:ml-20">
             <Input placeholder="Bank id" name="bankid" />
